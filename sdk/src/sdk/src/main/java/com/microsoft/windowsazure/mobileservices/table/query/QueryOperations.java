@@ -1121,7 +1121,7 @@ public class QueryOperations {
      * @param leftQuery  The destination query to be modified.
      * @param rightQuery The source query to be joined with the destination query.
      */
-    static void join(Query leftQuery, Query rightQuery) {
+    public static void join(Query leftQuery, Query rightQuery) {
         if (leftQuery == null) {
             throw new IllegalArgumentException("Left Mobile Service query cannot be null.");
         }
